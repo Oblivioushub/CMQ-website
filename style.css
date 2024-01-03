@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 10px 10px;
+    text-align: center;
+    /* Create a grid pattern using repeating linear gradients */
+    background-image:
+        /* Vertical lines */ repeating-linear-gradient(90deg, #ccc, #ccc 1px, transparent 1px, transparent 21px),
+        /* Horizontal lines */ repeating-linear-gradient(0deg, #ccc, #ccc 1px, transparent 1px, transparent 21px);
+    background-size: 22px 22px;
+}
+
+
+
+
+nav a {
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 15px; /* Add padding to create the square look */
+    text-decoration: none;
+    color: #333;
+    background-color: #f5f5f5; /* Set a background color for the squares */
+    display: inline-block; /* This will allow us to add padding and make the elements line up in a row */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+nav a:hover {
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+#logo {
+    width: 500px; /* Adjust as needed */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
