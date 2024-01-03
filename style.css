@@ -8,12 +8,12 @@ body {
 }
 
 header {
-    background-color: #f5f5f5;
+    background-color: #fff;
     padding: 10px;
     text-align: center;
-    background-image: repeating-linear-gradient(90deg, #ccc, #ccc 1px, transparent 1px, transparent 21px),
+    /* background-image: repeating-linear-gradient(90deg, #ccc, #ccc 1px, transparent 1px, transparent 21px),
                       repeating-linear-gradient(0deg, #ccc, #ccc 1px, transparent 1px, transparent 21px);
-    background-size: 22px 22px;
+    background-size: 22px 22px; */
 }
 
 nav {
@@ -32,7 +32,7 @@ nav a {
     text-decoration: none;
     border: 1px solid #ccc;
     color: #ff914d;
-    background-color: #f5f5f5;
+    background-color: #fff;
     box-sizing: border-box; /* Include padding and border in the width and height */
     transition: background-color 0.3s, color 0.3s;
 }
